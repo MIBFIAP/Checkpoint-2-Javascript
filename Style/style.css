@@ -1,0 +1,196 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-size: arial;
+}
+
+
+body {
+    background: linear-gradient(to left, #3c8dbc, #5bc0de, #86c5f7, #a6d8f7, #c9e9ff);
+}
+
+body.dark-theme {
+    background:#282b30;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1.dark-theme {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 300px 0 300px;
+}
+
+p.dark-theme {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 300px 0 300px;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline;
+    padding: 14px;
+
+}
+
+.themeButton,
+svg{
+    transition: 0.2s; /* adiciona uma transição para todas as mudanças no estilo */  
+    font-family: Arial; /* tipo de fonte do texto*/
+    font-size: 14px; /* tamanho da fonte */
+    color:#fff; /* cor da fonte */
+    text-decoration: none; /* tira o sublinhado da palavra */
+    padding: 12px 24px;
+    font-weight: 700; /* define a espessura da fonte */
+    text-transform: uppercase; /* converte o texto do link em maiúsculas. */
+    background-color: #3c8dbc;
+    border: none; /* remove as bordas do link */
+    border-radius: 6px; /* define um raio de borda */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* adiciona uma sombra ao link */
+    
+}
+
+.themeButton:hover,
+svg:hover{
+    background-color: #1a5b81; /*cor de fundo do hover*/
+    color:black; /* define a cor do texto do link quando o mouse passar por cima */
+    padding: 8px;  /* define o preenchimento interno do link quando o mouse passar por cima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* adiciona sombra ao link quando o mouse passar por cima */
+    transform: translateY(-2px); /* aplica uma transformação para mover o link para cima quando o mouse passar por cima */
+}
+
+.produtos{
+    background: rgb(255, 255, 255);
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #00000038;
+}
+.produtos img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Nome{
+    margin-top: 10px;
+}
+
+.valor{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+.comprar{
+    width: 100px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #2eaa2e;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer; /* define o cursor do mouse como um ponteiro. */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.comprar:hover {
+    background-color: #4cd830;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); /* desloca o botão 2 pixels para cima. */
+}
+
+.comprar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex; /*Aqui eu falo que quero controlar o display*/
+    flex-direction: row;  /*Aqui eu falo que quero um do lado do outro*/
+    flex-wrap: wrap;  /*Aqui eu falo que quero que quando chegue no final da pagina ele quebre para a linha debaixo*/
+    justify-content: space-evenly;  /*Aqui eu falo que quero um mesmo espaçamento entre os*/
+}
+
+.buttonComprar {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+svg {
+    width: 40px;
+    color:rgb(0, 0, 0) !important;
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    margin-top: -12px;
+    width: 80%;
+}
+
+.valor {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.desc {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Pagina Inicial*/
+
+#Principal {
+
+
+  
+}
