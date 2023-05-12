@@ -13,3 +13,20 @@ switchBtn.addEventListener('click', () => {
    no css vai ter que colocar a classe ou id .dark-theme e colocar o style que quer para quando mudar
    para o tema escuro.
 */
+
+function validar(){ // Cria a função validar
+    
+  /*Cria as variáveis da Nome, Telefone e Email*/
+  let nome = document.getElementById("name").value
+  let telefone = document.getElementById("telefone").value
+  let email = document.getElementById("email").value
+  
+  /*Confere se todos os campos estão preenchidos*/
+  if(nome =="" || telefone =="" || email ==""){
+  alert('preencha os campos');
+}else{
+  alert('Dados Enviados');
+      /*Abrindo a página index.html */
+      window.open('index.html');
+}
+}
