@@ -194,3 +194,59 @@ svg {
 
   
 }
+#envio{/*estiliza o formulário*/
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
+}
+
+#name{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+    margin-top: 15%;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
+}
+#telefone{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
+
+}
+#email{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
+}
+.forms{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+}
+#envio:hover{
+    transform: translateY(-2px);
+}
