@@ -194,6 +194,7 @@ svg {
 }
 /** Card **/
 .card {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 500px;
@@ -202,16 +203,9 @@ svg {
     text-align: justify;
     color: #fff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
-    margin-left: 34%;
+    margin: 0 auto;
 }
 
-/*Pagina Inicial*/
-
-#Principal {
-
-
-  
-}
 #envio{/*estiliza o formulário*/
     width: 150px;
     height: 50px;
@@ -267,4 +261,16 @@ svg {
 }
 #envio:hover{
     transform: translateY(-2px);
+}
+
+.sem_estoque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sem {
+    width: 50%;
+    margin: 0 auto;
 }
