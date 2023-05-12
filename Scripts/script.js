@@ -30,3 +30,33 @@ function validar(){ // Cria a função validar
       window.open('index.html');
 }
 }
+
+//carrossel:
+//criando um array de imagens
+
+var imagens=[
+  '../Images/cab01.PNG',
+  '../Images/cab02.PNG',
+  '../Images/cab03.PNG',
+  '../Images/cab04.PNG',
+];
+//declarando as variaveis
+
+let Index=0;
+let time=2000;
+
+//criando uma função
+function slideshow(){
+  document.getElementById('carrossel').src=imagens[Index];//pega o id e o caminho da imagem
+  Index++;//incrementa
+  if(Index == imagens.length){Index=0}//verifica se as imagens existem e conta quantas imagens tem
+  setTimeout("slideshow()",time);//chama a funcção e define o tempo
+}
+//executa a função
+slideshow();
+
+
+//chamado alertas nas páginas
+if (document.body.id == 'menu'){
+  alert('Seja Bem Vindo à Perucaria para Carecas!')
+}
