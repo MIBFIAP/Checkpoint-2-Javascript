@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,74 @@
     <title>Cebelos</title>
     <link rel="stylesheet" href="../Style/style.css">
 </head>
-<body>
-    
-        
+
+<body id="Quiz">
+
+
     <div class="menu">
         <ul>
             <li><a class="themeButton" href="../Pages/index.html">Menu</a></li>
             <li><a class="themeButton" href="../Pages/Produtos.html">Produtos</a></li>
             <li><a class="themeButton" href="../Pages/Contato.html">Contato</a></li>
             <li><a class="themeButton" href="../Pages/Sobre.html">Sobre</a></li>
-            <li><div class="icon" id="switch"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="256" cy="256" r="208" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M256 464c-114.88 0-208-93.12-208-208S141.12 48 256 48z"/></svg></div></li>
+            <li>
+                <div class="icon" id="switch"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <circle cx="256" cy="256" r="208" fill="none" stroke="currentColor" stroke-linejoin="round"
+                            stroke-width="32" />
+                        <path d="M256 464c-114.88 0-208-93.12-208-208S141.12 48 256 48z" />
+                    </svg></div>
+            </li>
     </div>
-   
 
+    <div class="contSobre">
+        <h1 id="temapretoH" class="h1Sobre">Bem-vindo à nossa loja de perucas!</h1>
+        <p id="temapretoP" class="pSobre">Estamos aqui para ajudá-lo a encontrar a melhor solução para seus problemas capilares. Se você
+            está procurando uma solução rápida para cobrir uma careca, ou simplesmente quer mudar seu visual, temos as
+            perucas perfeitas para você.</p>
+        <p id="temapretoP" class="pSobre">Com uma ampla variedade de estilos, cores e tamanhos, nossas perucas são feitas de materiais
+            de alta qualidade e são projetadas para parecerem o mais natural possível. Não importa o que você esteja
+            procurando, temos algo para atender às suas necessidades.</p>
+        <p id="temapretoP" class="pSobre">E lembre-se, nosso slogan é "Não seja calvo!!!!". Não há necessidade de se preocupar com
+            problemas capilares quando você pode facilmente encontrar uma solução em nossa loja. Nossas perucas são uma
+            maneira fácil e acessível de obter um cabelo incrível em questão de segundos.</p>
+        <p id="temapretoP" class="pSobre">Então, se você está procurando por uma solução rápida e fácil para seus problemas capilares,
+            não procure mais. Visite nossa loja hoje e descubra como podemos ajudá-lo a ter um visual incrível e
+            confiante!</p>
+    </div>
 
-   
-    
+    <div id="resultados"></div>
+
+    <footer>
+        <form class="footerForm">
+            <section id="tituloForm">
+                <h3>Sugestões</h3>
+                <p>Registre abaixo sua sugestão de melhoria ou faça um pedido!</p>
+            </section>
+
+            <section id="campoForm">
+                <a class="caixaFormulario">
+                    <label>Digite seu nome:</label>
+                    <input type="text" name="nome" placeholder="ex:Luan mineo">
+                </a>
+                <a class="caixaFormulario">
+                    <label>Digite seu e-mail:</label>
+                    <input type="email" name="email" placeholder="ex:luanmineo@gmail.com">
+                </a>
+                <a class="caixaFormulario">
+                    <label>Assunto:</label>
+                    <input type="text" name="nome" placeholder="ex:gostaria de melhorias">
+                </a>
+                <a class="caixaFormulario">
+                    <label>Mensagem:</label>
+                    <input type="text" name="nome" placeholder="sugestão"><br>
+                </a>
+            </section>
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+    </footer>
 
 </body>
-    <script src="../Scripts/script.js"></script>
+<script src="../Scripts/script.js"></script>
+
 </html>

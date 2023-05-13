@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,75 @@
     <link rel="stylesheet" href="../Style/style.css">
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js%22%3E"></script>
 </head>
+
 <body>
-    
+
     <div class="menu">
         <ul>
             <li><a class="themeButton" href="../Pages/index.html">Menu</a></li>
             <li><a class="themeButton" href="../Pages/Produtos.html">Produtos</a></li>
             <li><a class="themeButton" href="../Pages/Contato.html">Contato</a></li>
             <li><a class="themeButton" href="../Pages/Sobre.html">Sobre</a></li>
-            <li><div class="icon" id="switch"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="256" cy="256" r="208" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M256 464c-114.88 0-208-93.12-208-208S141.12 48 256 48z"/></svg></div></li>
+            <li>
+                <div class="icon" id="switch"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <circle cx="256" cy="256" r="208" fill="none" stroke="currentColor" stroke-linejoin="round"
+                            stroke-width="32" />
+                        <path d="M256 464c-114.88 0-208-93.12-208-208S141.12 48 256 48z" />
+                    </svg></div>
+            </li>
     </div>
-        <div class="image">
-            <img src="../Images/banner calvo.jpg">
-        </div>
+    <div class="image">
+        <img src="../Images/banner calvo.jpg">
+    </div>
+    <div class="imgCarrossel">
         <img id="carrossel">
-        <div class="description">
+    </div>
+    <div class="description">
         <h1 id="Principal">Não seja calvo!!!!</h1>
-        <p class="card">A calvície não precisa ser um problema. Com uma peruca, você pode experimentar diferentes estilos de cabelo sem esforço, economizando tempo e dinheiro em produtos capilares. Seja calvo e feliz, ou use uma peruca e se torne alguém irresistível! Com uma ampla variedade de opções disponíveis, uma peruca oferece uma solução versátil para disfarçar a calvície. Escolha entre cabelos curtos, longos, lisos, cacheados ou cores diferentes para transformar seu visual conforme desejar. Além de proporcionar uma aparência natural e elegante, a peruca pode aumentar sua confiança e autoestima. Imagine acordar todas as manhãs sabendo que pode ter o cabelo que sempre desejou, independentemente de sua condição capilar. Uma grande vantagem é a praticidade, pois você simplesmente coloca a peruca e está pronto para o dia. Além disso, as perucas permitem mudanças frequentes de estilo, seja para eventos especiais, festas temáticas ou apenas diversão. Se você está lidando com a calvície e busca uma solução prática, econômica e versátil, considere o uso de uma peruca. Não deixe que a queda de cabelo afete sua autoconfiança e felicidade. Seja calvo e feliz ou descubra o poder de uma peruca para se tornar alguém irresistível. A escolha é sua!</p>
-        </div>
+        <p class="card">A calvície não precisa ser um problema. Com uma peruca, você pode experimentar diferentes
+            estilos de cabelo sem esforço, economizando tempo e dinheiro em produtos capilares. Seja calvo e feliz, ou
+            use uma peruca e se torne alguém irresistível! Com uma ampla variedade de opções disponíveis, uma peruca
+            oferece uma solução versátil para disfarçar a calvície. Escolha entre cabelos curtos, longos, lisos,
+            cacheados ou cores diferentes para transformar seu visual conforme desejar. Além de proporcionar uma
+            aparência natural e elegante, a peruca pode aumentar sua confiança e autoestima. Imagine acordar todas as
+            manhãs sabendo que pode ter o cabelo que sempre desejou, independentemente de sua condição capilar. Uma
+            grande vantagem é a praticidade, pois você simplesmente coloca a peruca e está pronto para o dia. Além
+            disso, as perucas permitem mudanças frequentes de estilo, seja para eventos especiais, festas temáticas ou
+            apenas diversão. Se você está lidando com a calvície e busca uma solução prática, econômica e versátil,
+            considere o uso de uma peruca. Não deixe que a queda de cabelo afete sua autoconfiança e felicidade. Seja
+            calvo e feliz ou descubra o poder de uma peruca para se tornar alguém irresistível. A escolha é sua!</p>
+    </div>
+
+    <footer>
+        <form class="footerForm">
+            <section id="tituloForm">
+                <h3>Sugestões</h3>
+                <p>Registre abaixo sua sugestão de melhoria ou faça um pedido!</p>
+            </section>
+
+            <section id="campoForm">
+                <a class="caixaFormulario">
+                    <label>Digite seu nome:</label>
+                    <input type="text" name="nome" placeholder="ex:Luan mineo">
+                </a>
+                <a class="caixaFormulario">
+                    <label>Digite seu e-mail:</label>
+                    <input type="email" name="email" placeholder="ex:luanmineo@gmail.com">
+                </a>
+                <a class="caixaFormulario">
+                    <label>Assunto:</label>
+                    <input type="text" name="nome" placeholder="ex:gostaria de melhorias">
+                </a>
+                <a class="caixaFormulario">
+                    <label>Mensagem:</label>
+                    <input type="text" name="nome" placeholder="sugestão"><br>
+                </a>
+            </section>
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+    </footer>
 </body>
-    <script src="../Scripts/script.js"></script>
+<script src="../Scripts/script.js"></script>
+
 </html>

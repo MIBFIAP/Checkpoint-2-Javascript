@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 body.dark-theme {
-    background:#282b30;
+    background: #282b30;
 }
 
 h1 {
@@ -44,13 +44,13 @@ ul {
     display: flex;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.menu ul li{
+.menu ul li {
     margin-top: 10px;
     list-style: none;
     display: inline;
@@ -59,32 +59,47 @@ ul {
 }
 
 .themeButton,
-svg{
-    transition: 0.2s; /* adiciona uma transição para todas as mudanças no estilo */  
-    font-family: Arial; /* tipo de fonte do texto*/
-    font-size: 14px; /* tamanho da fonte */
-    color:#fff; /* cor da fonte */
-    text-decoration: none; /* tira o sublinhado da palavra */
+svg {
+    transition: 0.2s;
+    /* adiciona uma transição para todas as mudanças no estilo */
+    font-family: Arial;
+    /* tipo de fonte do texto*/
+    font-size: 14px;
+    /* tamanho da fonte */
+    color: #fff;
+    /* cor da fonte */
+    text-decoration: none;
+    /* tira o sublinhado da palavra */
     padding: 12px 24px;
-    font-weight: 700; /* define a espessura da fonte */
-    text-transform: uppercase; /* converte o texto do link em maiúsculas. */
+    font-weight: 700;
+    /* define a espessura da fonte */
+    text-transform: uppercase;
+    /* converte o texto do link em maiúsculas. */
     background-color: #3c8dbc;
-    border: none; /* remove as bordas do link */
-    border-radius: 6px; /* define um raio de borda */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* adiciona uma sombra ao link */
-    
+    border: none;
+    /* remove as bordas do link */
+    border-radius: 6px;
+    /* define um raio de borda */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    /* adiciona uma sombra ao link */
+
 }
 
 .themeButton:hover,
-svg:hover{
-    background-color: #1a5b81; /*cor de fundo do hover*/
-    color:black; /* define a cor do texto do link quando o mouse passar por cima */
-    padding: 8px;  /* define o preenchimento interno do link quando o mouse passar por cima */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* adiciona sombra ao link quando o mouse passar por cima */
-    transform: translateY(-2px); /* aplica uma transformação para mover o link para cima quando o mouse passar por cima */
+svg:hover {
+    background-color: #1a5b81;
+    /*cor de fundo do hover*/
+    color: black;
+    /* define a cor do texto do link quando o mouse passar por cima */
+    padding: 8px;
+    /* define o preenchimento interno do link quando o mouse passar por cima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* adiciona sombra ao link quando o mouse passar por cima */
+    transform: translateY(-2px);
+    /* aplica uma transformação para mover o link para cima quando o mouse passar por cima */
 }
 
-.produtos{
+.produtos {
     background: rgb(255, 255, 255);
     width: 250px;
     height: 450px;
@@ -95,22 +110,23 @@ svg:hover{
     border-radius: 20px;
     box-shadow: 10px 5px 5px #00000038;
 }
+
 .produtos img {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.Nome{
+.Nome {
     margin-top: 10px;
 }
 
-.valor{
+.valor {
     margin-top: 5px;
     font-weight: bold;
 }
 
 
-.comprar{
+.comprar {
     width: 100px;
     padding: 12px 24px;
     font-size: 16px;
@@ -122,7 +138,8 @@ svg:hover{
     border-radius: 6px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
-    cursor: pointer; /* define o cursor do mouse como um ponteiro. */
+    cursor: pointer;
+    /* define o cursor do mouse como um ponteiro. */
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -131,7 +148,8 @@ svg:hover{
 .comprar:hover {
     background-color: #4cd830;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transform: translateY(-2px); /* desloca o botão 2 pixels para cima. */
+    transform: translateY(-2px);
+    /* desloca o botão 2 pixels para cima. */
 }
 
 .comprar a {
@@ -146,10 +164,14 @@ svg:hover{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
-    display: flex; /*Aqui eu falo que quero controlar o display*/
-    flex-direction: row;  /*Aqui eu falo que quero um do lado do outro*/
-    flex-wrap: wrap;  /*Aqui eu falo que quero que quando chegue no final da pagina ele quebre para a linha debaixo*/
-    justify-content: space-evenly;  /*Aqui eu falo que quero um mesmo espaçamento entre os*/
+    display: flex;
+    /*Aqui eu falo que quero controlar o display*/
+    flex-direction: row;
+    /*Aqui eu falo que quero um do lado do outro*/
+    flex-wrap: wrap;
+    /*Aqui eu falo que quero que quando chegue no final da pagina ele quebre para a linha debaixo*/
+    justify-content: space-evenly;
+    /*Aqui eu falo que quero um mesmo espaçamento entre os*/
 }
 
 .buttonComprar {
@@ -166,7 +188,7 @@ svg:hover{
 
 svg {
     width: 40px;
-    color:rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0) !important;
     display: flex;
 }
 
@@ -187,11 +209,10 @@ svg {
     margin-right: 10px;
 }
 
-#carrossel{
-    align-items: center;
-    margin-left: 40.85%;
-    padding-bottom: 10px;
+#carrossel {
+    margin-bottom: 10px;
 }
+
 /** Card **/
 .card {
     display: flex;
@@ -204,23 +225,31 @@ svg {
     color: #fff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
     margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
 
-#envio{/*estiliza o formulário*/
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    color: black;
+#envio {
+    /*estiliza o formulário*/
+    width: 100px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
     text-transform: uppercase;
-    font-weight: bold;
-    margin-left: 2%;
-    margin-top: 2%;
-    border: 2px solid black;
-    border-radius: 9px;
-    box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
+    color: #000000;
+    background-color: #3c8dbc;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    /* define o cursor do mouse como um ponteiro. */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-#name{
+#name {
     width: 200px;
     height: 50px;
     background-color: white;
@@ -231,7 +260,8 @@ svg {
     border-radius: 9px;
     box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
 }
-#telefone{
+
+#telefone {
     width: 200px;
     height: 50px;
     background-color: white;
@@ -243,7 +273,8 @@ svg {
     box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
 
 }
-#email{
+
+#email {
     width: 200px;
     height: 50px;
     background-color: white;
@@ -254,12 +285,16 @@ svg {
     border-radius: 9px;
     box-shadow: 10px 5px rgba(0, 0, 0, 0.356);
 }
-.forms{
+
+.forms {
     font-size: 30px;
     color: rgb(0, 0, 0);
-    text-align: center; 
+    text-align: center;
 }
-#envio:hover{
+
+#envio:hover {
+    background-color: #86c5f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
 }
 
@@ -273,4 +308,249 @@ svg {
 .sem {
     width: 25%;
     margin: 0 auto;
+}
+
+.imgCarrossel {
+    display: flex;
+    justify-content: center;
+}
+
+.contSobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.h1Sobre {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pSobre {
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+.h1Sobre.dark-theme {
+    font-size: 36px;
+    color: #9e9e9e;
+    margin-bottom: 20px;
+}
+
+.pSobre.dark-theme {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+#resultados {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+#qualidade {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 145px;
+    width: 100%;
+    background-color: #4f8fca;
+    color: white;
+    font-size: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+a>i {
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+.footerForm {
+    width: 100%;
+    margin: 0;
+    height: 320px;
+    background-color: #ededed;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+#tituloForm {
+    text-shadow: 1px 1px black;
+    padding-top: 30px;
+    text-align: center;
+    color: #4f8fca;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0px 0 10px 0;
+    font-family: sans-serif;
+}
+
+#tituloForm p {
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #4f8fca;
+}
+
+input {
+    height: 35px;
+    width: 200px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #636363;
+    padding-left: 5px;
+}
+
+#campoForm {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+
+.caixaFormulario {
+    display: flex;
+    flex-direction: column;
+}
+
+#enviar {
+    /*estiliza o formulário*/
+    width: 100px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #3c8dbc;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    /* define o cursor do mouse como um ponteiro. */
+    margin-top: 15px;
+}
+
+#enviar:hover {
+    background-color: #86c5f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+#footerInfo {
+    display: block;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.apresentacao {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+#infos {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textoFinal {
+    width: 350px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#infos ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.item1 {
+    width: 300px;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.item2 {
+    margin: 0;
+
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.item1 h5 {
+    font-weight: bolder;
+    color: #000;
+    color: #EB9B17;
+    font-family: sans-serif;
+}
+
+
+.item2 h5 {
+    font-weight: bolder;
+    color: #000;
+    color: #EB9B17;
+    font-family: sans-serif;
+}
+
+h5 {
+    font-weight: bolder;
+    color: #000;
+    color: #EB9B17;
+    font-family: sans-serif;
+
+}
+
+span i {
+    padding-top: 20px;
+}
+
+#rgm {
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #ea9115;
+    color: #fff;
+    text-align: center;
+}
+
+#footer-mobile {
+    display: none;
 }
